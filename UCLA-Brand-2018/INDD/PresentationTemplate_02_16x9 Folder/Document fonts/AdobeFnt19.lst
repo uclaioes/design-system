@@ -1,0 +1,107 @@
+%!Adobe-FontList 1.19
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Karbon-Bold
+FamilyName:Karbon
+StyleName:Bold
+MenuName:Karbon Bold
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Karbon Bold
+WritingScript:Roman
+OutlineFileName:\Karbon-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:73932
+FileModTime:1390430793
+NameArray:0,Mac,4,Karbon Bold
+NameArray:0,Win,1,Karbon Bold
+NameArray:0,Win,16,Karbon
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Karbon-Medium
+FamilyName:Karbon
+StyleName:Medium
+MenuName:Karbon Medium
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Karbon Medium
+WritingScript:Roman
+OutlineFileName:\Karbon-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:76144
+FileModTime:1390430793
+NameArray:0,Mac,4,Karbon Medium
+NameArray:0,Win,1,Karbon Medium
+NameArray:0,Win,16,Karbon
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Karbon-Regular
+FamilyName:Karbon
+StyleName:Regular
+MenuName:Karbon Regular
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Karbon Regular
+WritingScript:Roman
+OutlineFileName:\Karbon-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:71960
+FileModTime:1390430793
+NameArray:0,Mac,4,Karbon Regular
+NameArray:0,Win,1,Karbon Regular
+NameArray:0,Win,16,Karbon
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:1527759117
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
