@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <title>Newsletter Lite B</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <style>
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  	/* RESET STYLES */
+
+    body { height: 100%; margin: 0 auto !important; padding: 0; width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+      /* -webkit-text-size-adjust: 100% prevents font-size increase on iOS and Android devices */
+      /* -ms-text-size-adjust: 100% prevents font-size increase on Windows mobile devices */
+
+    table { border: none; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 auto !important; }
+      /* These styles will zero out unwanted spacing on table elements */
+      /* Fix table gaps in Outlook */
+      /* margin: 0 auto centers table alignment in Yahoo */
+
+    td { border-collapse: collapse; vertical-align: top; }
+
+    img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
+      /* -ms-interpolation-mode: bicubic fixes pixelization of fluid images in IE */
+
+    a img { border: none; }
+      /* Remove border around linked images */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+    /* CLIENT-SPECIFIC STYLES */
+
+    #outlook a { padding: 0; }
+
+    .ReadMsgBody { width: 100%; }
+    .ExternalClass { width: 100%; }
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div { line-height: 100%; }
+      /* Reset Outlook.com styles */
+
+    a[x-apple-data-detectors] { color: inherit !important; font-family: inherit !important; font-size: inherit !important; font-weight: inherit !important; line-height: inherit !important; text-decoration: none !important; }
+      /* Fix blue links on iPad & iPhone */
+
+  	.image-fix { display:block; }
+      /* Remove unwanted padding from adjacent or stacked images in Gmail */
+
+    body { margin: 0 auto !important; }
+    div[style*="margin: 16px 0"] { margin: 0 auto !important; font-size: 100% !important; }
+      /* Removes margin gaps in Android 4.4 */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+    /* BODY */
+    body, .body { background-color: #ebebeb; height: 100%; width: 100% !important; }
+
+    /* TABLES */
+  	.container { background-color: #ffffff; width: 560px; }
+  	.container td { font-family: Helvetica, sans-serif; }
+
+  	.preheader,
+    .gradient-bar,
+  	.header,
+  	.main,
+    .white,
+    .blue,
+    .list,
+    .social,
+  	.footer { width: 100%; }
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  	/* SPACERS */
+
+  	.spacer-xxl { height: 32px; line-height: 32px; }
+  	.spacer-xl { height: 24px; line-height: 24px; }
+  	.spacer-lg { height: 20px; line-height: 20px; }
+  	.spacer-md { height: 16px; line-height: 16px; }
+  	.spacer-sm { font-size: 12px; height: 12px; line-height: 12px; }
+  	.spacer-xs { font-size: 8px; height: 8px; line-height: 8px; }
+  	.spacer-xxs { font-size: 4px; height: 4px; line-height: 4px; }
+
+  	.spacer-grey { font-size: 16px; height: 16px; line-height: 16px; background-color: #ebebeb; }
+  	.newsletter-lite .spacer-grey { font-size: 25px; height: 25px; line-height: 25px; background-color: #ebebeb; }
+  	.spacer-shadow { font-size: 8px; height: 8px; line-height: 8px; background-color: #dddddd; }
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  	/* UNIVERSAL FONT SIZES AND LINE-HEIGHTS */
+
+    .h0 { font-size: 36px; line-height: 48px; font-weight: bold; } /* Event Title */
+    .h1 { font-size: 28px; line-height: 32px; font-weight: bold; } /* Title */
+    .h2 { font-size: 24px; line-height: 32px; font-weight: bold; } /* Block Section Heading */
+    .h3 { font-size: 20px; line-height: 24px; font-weight: bold; } /* Subtitle */
+    .h4 { font-size: 16px; line-height: 24px; font-weight: bold; } /* Header Link */
+    .h5 { font-size: 12px; line-height: 18px; font-weight: bold; text-transform: uppercase; } /* Label */
+    .p { font-size: 16px; line-height: 24px; }  /* Paragraph */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  	/* TABLE STYLES */
+
+    th { margin: 0; padding: 0; vertical-align: top; font-weight: normal; } /* Fixes table stacking issue in Android 4.4 */
+
+    .do-not-break { display:inline-block; }
+
+  	.preheader td { background-color: #EBEBEB; color: #EBEBEB; display:none; font-size: 1px; line-height: 1px; text-align: center; }
+
+    .gradient td, .gradient a { color: #ffffff; }
+    .gradient-bar a { text-decoration: none; }
+    .gradient-bar img { background-color: #005587; height: 18px; line-height: 18px; width: 600px; }
+    .gradient .padding { padding: 32px 40px 40px; }
+    .gradient-bg { background-size: contain; }
+    .gradient .h0, .gradient .h1, .gradient .h2, .gradient .h3, .gradient .h4, .gradient .h5, .gradient .p { color: #ffffff; }
+ 
+    .white td { background-color: #ffffff; color: #454545; }
+    .white a { color: #0b6ea6; text-decoration: underline; }
+    .white .h4 a { text-decoration: none; }
+    .white .padding { padding: 40px; }
+
+    .blue td { background-color: #2774ae; color: #ffffff; }
+    .blue.dark-blue td { background-color: #005587; color: #ffffff; }
+    .blue .h5 { font-size: 18px; line-height: 28px; text-transform: capitalize; }
+    .blue.header .h5 { font-size: 12px; font-weight: bold; line-height: 18px; text-transform: uppercase; }
+    .blue a { color: #ffffff; font-weight: normal; text-decoration: underline; }
+    .blue .padding { padding: 40px; }
+
+    .padding-sides-and-bottom-only { padding: 0 40px 40px; }
+    .padding-sides-only { padding: 0 40px; }
+    
+    .header a { text-decoration: none; }
+    .header.white .padding, .header.blue .padding, .header.gradient .padding { padding: 32px 40px; }
+    .header .right-column { text-align: right; }
+    .header .right-column .padding { padding: 28px 0 0; }
+
+    .center td { text-align: center; }
+    .molecules { display: inline-block; height: 10px; width: 37px; }
+    .short-copy .h4 a { font-size: 16px; line-height: 28px; }
+
+    .list .bullet { font-size: 24px; line-height: 24px; padding-right: 10px; width: 9px; }
+    
+    .social td { background-color: #ebebeb; }
+    .social.blue td { background-color: #0b6ea6; }
+    .social a { text-decoration: none; color: #454545; }
+    .social.blue a { text-decoration: underline; color: #ffffff; }
+    .social.blue img { text-decoration: none; color: #ffffff; }
+    .social .social-icons td { height: 50px; width: 63px; vertical-align: middle; }
+    .social .social-icons img { font-size: 14px; max-height: 50px; width: 50px; }
+    .social .padding { padding: 28px 30px 28px; }
+
+  	.footer td { background-color: #ebebeb; color: #454545; text-align: left; }
+    .footer a { color: #0b6ea6; text-decoration: underline; }
+    .footer .p { font-size: 14px; line-height: 24px; }
+    .footer .padding { padding: 40px 40px 55px; }
+    .footer .padding-sides-and-bottom-only { padding: 0 40px 55px; }
+    
+    .two-column { max-width: 600px; }
+    .two-column th { text-align: left; }
+    .two-column .divider { padding: 0 20px 0 0; }
+
+    /* STYLES FOR EVENT LITE BELOW */
+    .event-lite .white .padding { padding: 40px 150px; }
+
+    /* STYLES FOR NEWSLETTER LITE BELOW */
+    .card .h4,
+    .card .h4 a,
+    .other-content .h4,
+    .other-content .h4 a { font-size: 18px; line-height: 24px; }
+
+    .card .padding { padding: 28px 40px; }
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  	/* MOBILE STYLES */
+
+  	@media only screen and (max-width: 560px) {
+      .container,
+      .preheader,
+      .gradient-bar,
+      .white,
+      .blue,
+      .social,
+      .footer { width: 100% !important; }
+
+      th { display:block!important; height: auto !important; width: 100% !important; }
+      .mobile-hide { display: none !important; }
+      
+      /* Uncomment the next line(s) if your department logo(s) is/are between 414px-560px wide */
+      /* .header .logo-department img, */
+      /* .footer .logo-department-cobrand img, */
+      .mobile-scale { height: auto !important; width: 100% !important; }
+
+      .gradient-bar img { width: 100% !important; }
+
+      .white .padding, .blue .padding { padding: 40px 4% !important; }
+      
+      .header.white .padding,
+      .header.blue .padding,
+      .header.gradient .padding { padding: 32px 4% !important; }
+
+      .padding-sides-and-bottom-only { padding: 0 4% 40px !important; }
+      .padding-sides-only { padding: 0 4% !important; }
+
+      .header .right-column { text-align: left !important; }
+      .header .right-column .padding { padding: 20px 0 0 !important; }
+      
+      .two-column .divider { padding: 0 0 20px 0 !important; }
+
+      .social .padding { padding: 28px 2% 24px !important; }
+      
+      .footer .padding { padding: 40px 4% 55px !important; }
+      .footer .padding-sides-and-bottom-only { padding: 0 4% 55px !important; }
+  	}
+
+    @media only screen and (max-width: 425px) {
+      /* STYLE FOR EVENT LITE BELOW */
+      .image-centerpiece img { height: auto !important; width: 100% !important; }
+    }
+
+    @media only screen and (max-width: 414px) {
+      /* Uncomment the next line(s) if your department logo(s) is/are between 375px-414px wide */
+      /* .header .logo-department img { height: auto !important; width: 100% !important; } */
+      .footer .logo-department-cobrand img { height: auto !important; width: 100% !important; }
+
+      .social .social-icons td { width: 66px !important; }
+    }
+
+    @media only screen and (max-width: 375px) {
+      /* Uncomment the next line(s) if your department logo(s) is/are between 320px-375px wide */
+      /* .header .logo-department img { height: auto !important; width: 100% !important; } */
+      /* .footer .logo-department-cobrand img { height: auto !important; width: 100% !important; } */
+    }
+  </style>
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- OUTLOOK STYLES -->
+
+	<!--[if mso]>
+		<style type="text/css">
+			body, tr, td, a { font-family: Helvetica, sans-serif !important; }
+		</style>
+	<![endif]-->
+
+  	<!--[if gte mso 9]>
+  	<xml>
+  		<o:OfficeDocumentSettings>
+  			<o:AllowPNG/>
+  			<o:PixelsPerInch>96</o:PixelsPerInch>
+  		</o:OfficeDocumentSettings>
+  	</xml>
+  	<![endif]-->
+    	<!-- Scales images for 120 DPI -->
+
+	<!-- END OUTLOOK STYLES -->
+</head>
+
+
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+<!-- Arbitrary body attribute allows AOL Chrome to properly render fallback font sizes -->
+<body aol-fix="fixit">
+  <table border="0" cellpadding="0" cellspacing="0" class="body" role="presentation">
+  	<tr>
+  		<td>
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  			<!-- CONTAINER -->
+  			<table align="center" border="0" cellpadding="0" cellspacing="0" class="container newsletter-lite" role="presentation">
+  				<tr>
+  					<td>
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  						<!-- PREHEADER -->
+  						<table align="center" border="0" cellpadding="0" cellspacing="0" class="preheader" role="presentation">
+  							<tr>
+  								<td>
+                    Vestibulum convallis elit nec elit iaculis feugiat.
+  								</td>
+  							</tr>
+  						</table>
+							<!-- END PREHEADER -->
+              
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+              <!-- HEADER -->
+              <table border="0" cellpadding="0" cellspacing="0" class="header blue center" width="100%" role="presentation">
+                <tr>
+                  <td class="padding-sides-only">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                        <tr>
+                          <td>
+
+                            <div class="spacer-lg">&nbsp;</div>
+
+                            <!-- MOLECULES -->
+                            <table align="" border="0" cellpadding="0" cellspacing="0" class="header blue" role="presentation">
+                              <tr>
+                                <td>
+                                  <img src="img/yellow-molecules.png" class="image-fix molecules" alt="" height="10" width="37" />
+                                </td>
+                              </tr>
+                            </table>
+                            <!-- END MOLECULES -->
+
+                            <div class="spacer-xxs">&nbsp;</div>
+
+                            <div class="h1"><strong>UCLA DEPARTMENT</strong></div>
+                            <div class="h1"><strong>MONTHLY NEWSLETTER</strong></div>
+                            <div class="spacer-xxs">&nbsp;</div>
+
+                            <div class="h5">&nbsp;Fall 2018 ISSUE 16</div>
+                            <div class="spacer-lg">&nbsp;</div>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            <!-- END HEADER -->
+
+            <div class="spacer-grey">&nbsp;</div>            
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  						<!-- CARD 1 -->
+  						<table border="0" cellpadding="0" cellspacing="0" class="white card center" width="100%" role="presentation">
+                <tr>
+                  <td class="">
+
+                    <!-- FEATURED STORY IMAGE -->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+                      <tr>
+                        <td>
+                          <img src="img/image-story-1120x600.jpg" alt="" class="mobile-scale" height="300" width="560" />
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- FEATURED TOP STORY IMAGE -->
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+                      <tr>
+                        <td class="padding">
+                            <div class="h4"><a href="#">Featured Story Headline</a></div>
+                            <div class="spacer-xs">&nbsp;</div>
+        
+                            <div class="p">This template presents a collection of non-hierarchical content. A short teaser copy drives readers to <a href="#">landing page</a>. Recommend 200 characters or less. The CTA button below is optional.</div>
+                            <div class="spacer-md">&nbsp;</div>
+
+                            <!--BUTTON-->
+                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%" role="presentation">
+                              <tr>
+                                <td align="center">
+
+                                  <a href="#" target="_blank" style="display: inline-block; text-decoration: none;">
+                                    <!--[if gte mso 9]>
+                                    <v:rect strokecolor="#0b6ea6" fillcolor="#0b6ea6" href="#" target="_blank" style="mso-wrap-style:none; mso-position-horizontal: center">
+                                    <v:textbox inset="29px,15px,29px,15px" style="mso-fit-shape-to-text: t">
+                                    <![endif]-->
+
+                                    <div>
+                                      <!--[if !mso]><!-->
+                                      <div style="background: #0b6ea6; border: #0b6ea6 1px solid; padding: 15px 29px 15px 29px; font-size:16px; line-height: 16px; mso-line-height-alt: 110%; font-family:Helvetica, Arial, sans-serif;font-weight:bold;color:#ffffff; text-decoration:none;text-align:center;border-radius:5px;">
+                                      <!--<![endif]-->
+
+                                      <!--[if mso]>
+                                      <div style="background: #0b6ea6; padding: 15px 29px 15px 29px; font-size:16px; line-height: 16px; mso-line-height-alt: 110%; font-family:Helvetica, Arial, sans-serif;font-weight:bold;color:#ffffff; text-decoration:none;text-align:center;border-radius:5px;">
+                                      <![endif]-->
+                                        <div>Call to Action</div>
+                                      </div>
+                                    </div>
+
+                                    <!--[if gte mso 9]>
+                                    </v:textbox>
+                                    </v:rect>
+                                    <![endif]-->
+                                  </a>
+
+                                </td>
+                              </tr>
+                            </table>
+                            <!--END BUTTON-->
+
+                        </td>
+                      </tr>
+                    </table>
+
+                  <div class="spacer-shadow">&nbsp;</div>
+
+                  </td>
+                </tr>
+              </table>
+              <!-- END CARD 1 -->
+
+              <div class="spacer-grey">&nbsp;</div>            
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  						<!-- CARD 2 -->
+  						<table border="0" cellpadding="0" cellspacing="0" class="white card center" width="100%" role="presentation">
+                <tr>
+                  <td class="">
+
+                    <!-- FEATURED STORY IMAGE -->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+                      <tr>
+                        <td>
+                          <img src="img/image-story-1120x600.jpg" alt="" class="mobile-scale" height="300" width="560" />
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- FEATURED TOP STORY IMAGE -->
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+                      <tr>
+                        <td class="padding">
+                            <div class="h4"><a href="#">Featured Story Headline</a></div>
+                            <div class="spacer-xs">&nbsp;</div>
+        
+                            <div class="p">This template presents a collection of non-hierarchical content. A short teaser copy drives readers to <a href="#">landing page</a>. Recommend 200 characters or less. The CTA button below is optional.</div>
+                            <div class="spacer-md">&nbsp;</div>
+
+                            <!--BUTTON-->
+                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%" role="presentation">
+                              <tr>
+                                <td align="center">
+
+                                  <a href="#" target="_blank" style="display: inline-block; text-decoration: none;">
+                                    <!--[if gte mso 9]>
+                                    <v:rect strokecolor="#0b6ea6" fillcolor="#0b6ea6" href="#" target="_blank" style="mso-wrap-style:none; mso-position-horizontal: center">
+                                    <v:textbox inset="29px,15px,29px,15px" style="mso-fit-shape-to-text: t">
+                                    <![endif]-->
+
+                                    <div>
+                                      <!--[if !mso]><!-->
+                                      <div style="background: #0b6ea6; border: #0b6ea6 1px solid; padding: 15px 29px 15px 29px; font-size:16px; line-height: 16px; mso-line-height-alt: 110%; font-family:Helvetica, Arial, sans-serif;font-weight:bold;color:#ffffff; text-decoration:none;text-align:center;border-radius:5px;">
+                                      <!--<![endif]-->
+
+                                      <!--[if mso]>
+                                      <div style="background: #0b6ea6; padding: 15px 29px 15px 29px; font-size:16px; line-height: 16px; mso-line-height-alt: 110%; font-family:Helvetica, Arial, sans-serif;font-weight:bold;color:#ffffff; text-decoration:none;text-align:center;border-radius:5px;">
+                                      <![endif]-->
+                                        <div>Call to Action</div>
+                                      </div>
+                                    </div>
+
+                                    <!--[if gte mso 9]>
+                                    </v:textbox>
+                                    </v:rect>
+                                    <![endif]-->
+                                  </a>
+
+                                </td>
+                              </tr>
+                            </table>
+                            <!--END BUTTON-->
+
+                        </td>
+                      </tr>
+                    </table>
+
+                  <div class="spacer-shadow">&nbsp;</div>
+
+                  </td>
+                </tr>
+              </table>
+              <!-- END CARD 2 -->
+
+              <div class="spacer-grey">&nbsp;</div>
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  						<!-- CARD 3 -->
+  						<table border="0" cellpadding="0" cellspacing="0" class="white card center" width="100%" role="presentation">
+                <tr>
+                  <td class="">
+
+                    <!-- FEATURED STORY IMAGE -->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+                      <tr>
+                        <td>
+                          <img src="img/image-story-1120x600.jpg" alt="" class="mobile-scale" height="300" width="560" />
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- FEATURED TOP STORY IMAGE -->
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+                      <tr>
+                        <td class="padding">
+                            <div class="h4"><a href="#">Featured Story Headline</a></div>
+                            <div class="spacer-xs">&nbsp;</div>
+        
+                            <div class="p">This template presents a collection of non-hierarchical content. A short teaser copy drives readers to <a href="#">landing page</a>. Recommend 200 characters or less. The CTA button below is optional.</div>
+                            <div class="spacer-md">&nbsp;</div>
+
+                            <!--BUTTON-->
+                            <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%" role="presentation">
+                              <tr>
+                                <td align="center">
+
+                                  <a href="#" target="_blank" style="display: inline-block; text-decoration: none;">
+                                    <!--[if gte mso 9]>
+                                    <v:rect strokecolor="#0b6ea6" fillcolor="#0b6ea6" href="#" target="_blank" style="mso-wrap-style:none; mso-position-horizontal: center">
+                                    <v:textbox inset="29px,15px,29px,15px" style="mso-fit-shape-to-text: t">
+                                    <![endif]-->
+
+                                    <div>
+                                      <!--[if !mso]><!-->
+                                      <div style="background: #0b6ea6; border: #0b6ea6 1px solid; padding: 15px 29px 15px 29px; font-size:16px; line-height: 16px; mso-line-height-alt: 110%; font-family:Helvetica, Arial, sans-serif;font-weight:bold;color:#ffffff; text-decoration:none;text-align:center;border-radius:5px;">
+                                      <!--<![endif]-->
+
+                                      <!--[if mso]>
+                                      <div style="background: #0b6ea6; padding: 15px 29px 15px 29px; font-size:16px; line-height: 16px; mso-line-height-alt: 110%; font-family:Helvetica, Arial, sans-serif;font-weight:bold;color:#ffffff; text-decoration:none;text-align:center;border-radius:5px;">
+                                      <![endif]-->
+                                        <div>Call to Action</div>
+                                      </div>
+                                    </div>
+
+                                    <!--[if gte mso 9]>
+                                    </v:textbox>
+                                    </v:rect>
+                                    <![endif]-->
+                                  </a>
+
+                                </td>
+                              </tr>
+                            </table>
+                            <!--END BUTTON-->
+
+                        </td>
+                      </tr>
+                    </table>
+
+                  <div class="spacer-shadow">&nbsp;</div>
+
+                  </td>
+                </tr>
+              </table>
+              <!-- END CARD 3 -->
+
+              <div class="spacer-grey">&nbsp;</div>
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+              <!-- SHORT COPY SECTION (BLUE) -->
+  						<table border="0" cellpadding="0" cellspacing="0" class="blue other-content center" width="100%" role="presentation">
+                <tr>
+                  <td class="padding">
+                    <div class="h4">Other Content Optional </div>
+                    <div class="spacer-md">&nbsp;</div>
+
+                    <div class="p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, <a href="#">dapibus id</a>, mattis vel, nisi <a href="#">eget blandit</a> nunc tortor eu nibh. Nullam mollis.</div>
+                  </td>
+                </tr>
+              </table>
+              <!-- END SHORT COPY SECTION (BLUE) -->
+
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+              <!-- SOCIAL -->
+              <table align="center" border="0" cellpadding="0" cellspacing="0" class="social" role="presentation">
+                <tr>
+                  <td class="padding">
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="social-icons" role="presentation">
+                      <tr>
+                        <td align="left">
+                          <a href="https://www.facebook.com/uclabruins" target="_blank">
+                            <img src="img/icon-facebook-color.png" alt="Facebook" height="50" width="50" />
+                          </a>
+                        </td>
+                        <td align="left">
+                          <a href="https://twitter.com/ucla" target="_blank">
+                            <img src="img/icon-twitter-color.png" alt="Twitter" height="50" width="50" />
+                          </a>
+                        </td>
+                        <td align="left">
+                          <a href="http://instagram.com/ucla" target="_blank">
+                            <img src="img/icon-instagram-color.png" alt="Instagram" height="50" width="50" />
+                          </a>
+                        </td>
+                        <td align="left">
+                            <a href="https://www.snapchat.com/add/uclaofficial" target="_blank">
+                              <img src="img/icon-snapchat-color.png" alt="Snapchat" height="50" width="50" />
+                            </a>
+                          </td>
+                        <td align="left">
+                          <a href="https://www.linkedin.com/company/ucla" target="_blank">
+                            <img src="img/icon-linkedin-color.png" alt="LinkedIn" height="50" width="50" />
+                          </a>
+                        </td>
+                        <td align="left">
+                          <a href="https://www.youtube.com/user/UCLA" target="_blank">
+                            <img src="img/icon-youtube-color.png" alt="YouTube" height="50" width="50" />
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <!-- END SOCIAL -->
+
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+              <!-- FOOTER -->
+              <table align="center" border="0" cellpadding="0" cellspacing="0" class="footer" width="100%" role="presentation">
+                <tr>
+                  <td class="padding-sides-and-bottom-only">
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="logo-department" width="100%" role="presentation">
+                      <tr>
+                        <td>
+                          <a href="http://ucla.edu" target="_blank"> 
+                            <!-- For logo mobile scaling, see mobile styles in CSS section above. -->
+                            <img src="img/logo-dept-long-boxed.png" class="image-fix" alt="UCLA" height="50" width="245" align="left"> 
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="spacer-xl">&nbsp;</div>
+
+                          <div class="p">Phone: 310-825-1234 | Email: <a href="mailto:info@department.ucla.edu" target="_blank">info@department.ucla.edu</a></div>
+                          <div class="p">&copy; 2018 UC Regents | <a href="http://ucla.edu/terms-of-use" target="_blank">Terms of Use</a> | <a href="http://ucla.edu/accessibility" target="_blank">Accessibility</a></div>
+                          <div class="spacer-xl">&nbsp;</div>
+
+                          <div class="p">This email was sent to <a href="mailto:JosieBruin@ucla.edu" target="_blank">JosieBruin@ucla.edu</a> | <a href="#">Unsubscribe</a></div>                         
+                          <div class="p">UCLA External Affairs</div>
+                          <div class="p">10920 Wilshire Blvd. Ste 1100</div>
+                          <div class="p">Los Angeles, CA 90024 US</div>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <!-- END FOOTER -->
+
+    				</td>
+    			</tr>
+    		</table>
+        <!-- END CONTAINER -->
+        
+    	</td>
+    </tr>
+  </table>
+  <!-- END BODY -->
+  
+</body>
+</html>
