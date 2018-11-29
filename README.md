@@ -53,8 +53,6 @@ Logos, UCLA Institute of the Environment and Sustainability
     │   ├── JPG
     │   └── Word
     ├── Fonts
-    │   ├── Custom\ Karbon\ Master
-    │   ├── Karbon\ Family\ for\ UCLA
     │   └── karbon_specimen.pdf
     ├── Invitation
     │   ├── InDesign
