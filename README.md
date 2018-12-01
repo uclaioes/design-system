@@ -6,14 +6,10 @@ Logos, UCLA Institute of the Environment and Sustainability
 [www.ioes.ucla.edu](https://www.ioes.ucla.edu/)
 
 ```
-.
-├── Colors
+├── IoES-Brand-Colors
 │   ├── ioes-color-palette.scss
 │   ├── ioes-website-palette.ase
 │   └── ioes-website-palette.pdf
-├── Flyer
-│   ├── IoES-Flyer-Hi-Res.pdf
-│   └── IoES-Flyer-Lo-Res.pdf
 ├── IoES-Logos
 │   ├── ioes-logo-long.ai
 │   ├── ioes-logo-long.pdf
@@ -35,7 +31,7 @@ Logos, UCLA Institute of the Environment and Sustainability
 │   ├── ucla-ioes-logo.pdf
 │   ├── ucla-ioes-logo.sketch
 │   └── ucla-ioes-logo.svg
-├── Presentations
+├── IoES-Presentation-Templates
 │   ├── Keynote
 │   │   ├── IoES-Presentation-01-master.key
 │   │   ├── IoES-Presentation-02-master.key
