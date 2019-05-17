@@ -1,0 +1,174 @@
+:root {
+  /* Typography
+
+  // ========================================== */
+  --font-family: lexia, serif;
+  --font-family-display: lexia-advertising, serif;
+  --font-family-condensed: 'Roboto Condensed', sans-serif;
+  --font-family-alt: Futura, Arial, sans-serif;
+  --font-weight-thin: 100;
+  --font-weight-light: 300;
+  --font-weight: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --font-weight-xbold: 800;
+  --font-weight-black: 900;
+
+  /* Type scale */
+
+  /* Add values for your typographic hierarchy in em/rem units: */
+
+  /* Very large sizes */
+  --font-size-xxxx-display: 5.202rem;
+  --font-size-xxx-display: 3.247rem;
+  --font-size-xx-display: 2.887rem;
+  --font-size-x-display: 2.566rem;
+  --font-size-display: 2.281rem;
+
+  /* Large sizes */
+  --font-size-xxxx-large: 2.027rem;
+  --font-size-xxx-large: 1.802rem;
+  --font-size-xx-large: 1.602rem;
+  --font-size-x-large: 1.424rem;
+  --font-size-large: 1.266rem;
+
+  /* Regular sizes */
+  --font-size-medium: 1.125rem;
+  --font-size: 1rem;
+
+  /* Small sizes */
+  --font-size-small: 0.889rem;
+  --font-size-x-small: 0.79rem;
+
+  /* set base values */
+  --text-base-size: var(--font-size);
+  --text-scale-ratio: 1.125; /* major second */
+  --text-scale-ratio-alt: 1.2;
+  --line-height-text: 1.4;
+  --line-height-heading: 1;
+
+  /* Color SM Mountains */
+  --color-silk: #c1b3a7;
+  --color-zorba: #a89d91;
+  --color-saddle: hsl(13, 17%, 33%); /* #5f4d47 */
+  --color-saddle-dark: hsl(13, 34%, 11%);
+  --color-saddle-darker: hsl(6, 50%, 4%);
+  --color-saddle-light: hsl(13, 16%, 55%);
+  --color-saddle-lighter: hsl(13, 24%, 69%);
+  --color-celery: hsl(73, 57%, 54%); /* #b6cb5e */
+  --color-celery-dark: hsl(76, 100%, 32%);
+  --color-celery-darker: hsl(83, 100%, 26%);
+  --color-celery-light: hsl(68, 85%, 76%);
+  --color-celery-lighter: hsl(66, 95%, 85%);
+  --color-dell: hsl(104, 35%, 30%); /* #496538 */
+  --color-dell-dark: hsl(111, 70%, 9%);
+  --color-dell-darker: hsl(113, 90%, 3%);
+  --color-dell-light: hsl(100, 28%, 50%);
+  --color-dell-lighter: hsl(99, 41%, 64%);
+  --color-muddy-waters: #ad7a52;
+  --color-fawn: hsl(32, 77%, 65%); /* #e1ac6e */
+  --color-fawn-dark: hsl(29, 84%, 45%);
+  --color-fawn-darker: hsl(23, 100%, 37%);
+  --color-fawn-light: hsl(41, 100%, 82%);
+  --color-fawn-lighter: hsl(49, 100%, 90%);
+  --color-sandrift: #ab8979;
+  --color-bleu-de-france: hsl(205, 79%, 51%); /* #4591de */
+  --color-bleu-de-france-dark: hsl(216, 100%, 39%);
+  --color-bleu-de-france-darker: hsl(226, 100%, 34%);
+  --color-bleu-de-france-light: hsl(196, 100%, 67%);
+  --color-bleu-de-france-lighter: hsl(189, 100%, 75%);
+  --color-picton-blue: hsl(201, 97%, 65%); /* #5aa7de; */
+  --color-picton-blue-dark: hsl(206, 100%, 48%);
+  --color-picton-blue-darker: hsl(214, 100%, 47%);
+  --color-picton-blue-light: hsl(189, 100%, 80%);
+  --color-picton-blue-lighter: hsl(183, 100%, 88%);
+  --color-summer-sky: hsl(201, 75%, 56%); /* #5aa7de; */
+  --color-summer-sky-dark: hsl(207, 100%, 39%);
+  --color-summer-sky-darker: hsl(216, 100%, 34%);
+  --color-summer-sky-light: hsl(193, 98%, 74%);
+  --color-summer-sky-lighter: hsl(186, 100%, 83%);
+  --color-waikawa-gray: hsl(216, 19%, 47%); /* #65748e; */
+  --color-waikawa-gray-dark: hsl(220, 37%, 23%);
+  --color-waikawa-gray-darker: hsl(222, 54%, 11%);
+  --color-waikawa-gray-light: hsl(213, 34%, 71%);
+  --color-waikawa-gray-lighter: hsl(212, 48%, 84%);
+  --color-perfume: hsl(267, 48%, 77%); /* #beabdd */
+  --color-perfume-dark: hsl(267, 48%, 60%);
+  --color-perfume-darker: hsl(267, 48%, 47%);
+  --color-perfume-light: hsl(267, 48%, 90%);
+  --color-perfume-lighter: hsl(267, 48%, 98%);
+  --color-hippie-pink: hsl(346, 52%, 47%); /* #a94358; */
+  --color-hippie-pink-dark: hsl(347, 100%, 24%);
+  --color-hippie-pink-darker: hsl(355, 100%, 16%);
+  --color-hippie-pink-light: hsl(343, 83%, 68%);
+  --color-hippie-pink-lighter: hsl(340, 100%, 80%);
+  --color-carnation-pink: hsl(336, 100%, 84%);
+  --color-carnation-pink-dark: hsl(338, 100%, 72%);
+  --color-carnation-pink-darker: hsl(340, 100%, 63%);
+  --color-carnation-pink-light: hsl(322, 100%, 95%);
+  --color-carnation-pink-lighter: hsl(311, 100%, 98%);
+  --color-azalea: hsl(358, 100%, 87%);
+  --color-azalea-dark: hsl(357, 100%, 77%);
+  --color-azalea-darker: hsl(357, 100%, 69%);
+  --color-azalea-light: hsl(359, 100%, 97%);
+  --color-azalea-lighter: hsl(359, 84%, 99%);
+
+  /* Brand colors
+ // ========================================== */
+  --color-text-default: var(--color-waikawa-gray-darker);
+
+  /* Border radii
+ // ========================================== */
+
+  --border-radius-x-small: 0.25rem;
+  --border-radius-small: 0.5rem;
+  --border-radius-medium: 0.75rem;
+  --border-radius-large: 1rem;
+  --border-radius-circle: 50%;
+
+  /* Border widths
+// ========================================== */
+
+  --border-width-hairline: 1px;
+  --border-width-thin: 2px;
+  --border-width-thick: 5px;
+
+  /* Spacing
+// ========================================== */
+
+  --max-width: 90rem;
+  --spacing-xx-small: 0.125rem;
+  --spacing-x-small: 0.25rem;
+  --spacing-small: 0.5rem;
+  --spacing: 0.75rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 1.5rem;
+  --spacing-x-large: 2rem;
+  --spacing-xx-large: 3rem;
+
+  /* Timing
+// ========================================== */
+
+  --duration-instantly: 0;
+  --duration-immediately: 0.05s;
+  --duration-quickly: 0.1s;
+  --duration-promptly: 0.2s;
+  --duration-slowly: 0.4s;
+}
+
+@media (min-width: 48em) {
+  :root {
+    --font-size: 1.125rem;
+  }
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #38444c;
+    --color-border: #697278;
+    --color-text-default: #f0f2f3;
+    --color-base: #293238;
+    --color-accent: #ec1a62;
+  }
+} */
