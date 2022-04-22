@@ -5,8 +5,10 @@ Logos, UCLA Institute of the Environment and Sustainability
 [github project page](https://uclaioes.github.io/design-system/)  
 [www.ioes.ucla.edu](https://www.ioes.ucla.edu/)
 
+
+## File Tree
 ```
-├── IoES-Official-Logo
+├── IoES-Logo
 │   ├── Affinity-Designer
 │   │   └── UCLA-IoES-Logo.afdesign
 │   ├── EPS
@@ -14,9 +16,6 @@ Logos, UCLA Institute of the Environment and Sustainability
 │   ├── Illustrator
 │   │   ├── UCLA-IoES-Logo.ai
 │   │   └── UCLA-IoES-Logo.pdf
-│   ├── IoES-Brand-Guidelines
-│   │   ├── Color-Palette
-│   │   └── Presentation-Templates
 │   ├── PNG
 │   │   ├── UCLA-IoES-Logo-Transparent.png
 │   │   ├── UCLA-IoES-Logo-Transparent@2x.png
@@ -28,8 +27,19 @@ Logos, UCLA Institute of the Environment and Sustainability
 │   │   └── UCLA-IoES-Logo@4x.png
 │   └── SVG
 │       └── UCLA-IoES-Logo.svg
+├── IoES-PPT-Keynote
+│   ├── Keynote
+│   │   ├── IoES-Presentation-01-master.key
+│   │   ├── IoES-Presentation-02-master.key
+│   │   ├── IoES-Presentation-03-master.key
+│   │   └── IoES-Presentation-04-master.key
+│   └── PPT
+│       ├── IoES-Presentation-01-master.potx
+│       ├── IoES-Presentation-02-master.potx
+│       ├── IoES-Presentation-03-master.potx
+│       └── IoES-Presentation-04-master.potx
 ├── README.md
-├── UCLA-Brand-2018
+├── UCLA-Brand-Assets
 │   ├── Flyers
 │   │   ├── InDesign
 │   │   ├── JPG
@@ -88,39 +98,42 @@ Logos, UCLA Institute of the Environment and Sustainability
 │       ├── newsletter-standard-c.html
 │       ├── newsletter-standard-d.html
 │       └── style-guide-all.pdf
-└── zArchive
-    └── IoES-Logo-2015-2019
-        ├── ioes-logo-flat.ai
-        ├── ioes-logo-flat.png
-        ├── ioes-logo-flat.svg
-        ├── ioes-logo-gradient.ai
-        ├── ioes-logo-gradient.png
-        ├── ioes-logo-gradient.svg
-        ├── ioes-logo-long.ai
-        ├── ioes-logo-long.pdf
-        ├── ioes-logo-long.png
-        ├── ioes-logo-side-gala.ai
-        ├── ioes-logo-sq.ai
-        ├── ioes-logo-sq.png
-        ├── ioes-logo-top.ai
-        ├── ioes-logo-top.pdf
-        ├── ioes-logo-top.png
-        ├── ioes-logo-top.svg
-        ├── logo_blue.png
-        ├── logo_blue.svg
-        ├── logo_white.png
-        ├── logo_white.svg
-        ├── ucla-ioes-logo.afdesign
-        ├── ucla-ioes-logo.ai
-        ├── ucla-ioes-logo.eps
-        ├── ucla-ioes-logo.pdf
-        ├── ucla-ioes-logo.png
-        ├── ucla-ioes-logo.sketch
-        ├── ucla-ioes-logo.svg
-        ├── ucla-logo.ai
-        ├── ucla-logo.png
-        └── ucla-logo.svg
-
+├── Deprecated-Do-Not-Use
+│   ├── Color-Palette
+│   │   ├── ioes-color-palette.scss
+│   │   ├── ioes-website-palette.ase
+│   │   └── ioes-website-palette.pdf
+│   └── IoES-Logo-2015-2019
+│       ├── ioes-logo-flat.ai
+│       ├── ioes-logo-flat.png
+│       ├── ioes-logo-flat.svg
+│       ├── ioes-logo-gradient.ai
+│       ├── ioes-logo-gradient.png
+│       ├── ioes-logo-gradient.svg
+│       ├── ioes-logo-long.ai
+│       ├── ioes-logo-long.pdf
+│       ├── ioes-logo-long.png
+│       ├── ioes-logo-side-gala.ai
+│       ├── ioes-logo-sq.ai
+│       ├── ioes-logo-sq.png
+│       ├── ioes-logo-top.ai
+│       ├── ioes-logo-top.pdf
+│       ├── ioes-logo-top.png
+│       ├── ioes-logo-top.svg
+│       ├── logo_blue.png
+│       ├── logo_blue.svg
+│       ├── logo_white.png
+│       ├── logo_white.svg
+│       ├── ucla-ioes-logo.afdesign
+│       ├── ucla-ioes-logo.ai
+│       ├── ucla-ioes-logo.eps
+│       ├── ucla-ioes-logo.pdf
+│       ├── ucla-ioes-logo.png
+│       ├── ucla-ioes-logo.sketch
+│       ├── ucla-ioes-logo.svg
+│       ├── ucla-logo.ai
+│       ├── ucla-logo.png
+│       └── ucla-logo.svg
 ```
 
 
